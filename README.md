@@ -27,3 +27,24 @@
   > Plug in the SD card first on Raspberry Pi before proceeding to the next step.
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
+In the command prompt, type SSH to access the network protocol. Then type the following command:
+   - ssh username@hostname (e.g. pogiako@192.168.1.1 or pogiako@raspberyy.pi)
+   - sudo apt update
+   - sudo apt upgrade
+
+### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
+This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
+Here are the tutorials on how to install LAMP stack [[1]](https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/)[[2]](https://linuxhint.com/install-phpmyadmin-raspberry-pi/)
+ - To install the stack, type the following commands on our command prompt connected to Raspberry Pia via SSH.
+    + **_sudo apt install apache2_**
+    + **_sudo apt install mariadb-server_**
+    + **_sudo mysql_secure_installation_**
+    + **_sudo apt install php libapache2-mod-php php-mysql_**
+    + **_sudo apt-get install php_**
+    + sudo apt install phpmyadmin
+
+### 4. Connect to Raspberry Pi via VNC
+- Install RealVNC® Viewer to the device you want to control from via this [link](https://www.realvnc.com/en/connect/download/viewer/)
+- Before opening VNC on our PC, access first the Raspberry Pi Configuration Tool to enable VNC on the OS via the **_sudo raspi-config_** command.
+- Using the arrows, navigate to **'Interfacing Options'** > **'VNC'**, then choose **'Yes'** and select **'OK'**
+- On the device you will use to take control, run RealVNC Viewer and enter the private IP address in the search bar. If the screen of the Raspberry Pi appeared on RealVNC, it means that it already established connection and control on the Raspberry Pi.
