@@ -14,7 +14,7 @@
 - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
 - After choosing the preferred device, OS, and storage, click **Next**.
 - and click **Edit Settings** to customize the OS Settings.
-- In the OS Customization, we set the host, username, and password as **group1**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
+- In the OS Customization, we set the host as *raspberrypi**, username as *12345678**, and password as *12345678**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
 - Don't forget to enable SSH and use password authentication, then click **Save**.
 - Click **Yes** to apply our customized settings.
 > [!WARNING]
