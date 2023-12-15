@@ -41,7 +41,7 @@ Here are the tutorials on how to install LAMP stack [[1]](https://ostechnix.com/
     + **_sudo mysql_secure_installation_**
     + **_sudo apt install php libapache2-mod-php php-mysql_**
     + **_sudo apt-get install php_**
-    + sudo apt install phpmyadmin
+    + **_sudo apt install phpmyadmin_**
 
 ### 4. Connect to Raspberry Pi via VNC
 - Install RealVNC® Viewer to the device you want to control from via this [link](https://www.realvnc.com/en/connect/download/viewer/)
